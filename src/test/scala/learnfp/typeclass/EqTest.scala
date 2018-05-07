@@ -5,6 +5,7 @@ import EqOps._
 import EqInstances._
 
 class EqTest extends WordSpecLike with Matchers {
+
   "Eq should" should {
     "eq ints" in {
       1 ==== 1 shouldBe true
